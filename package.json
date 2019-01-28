@@ -1,0 +1,30 @@
+{
+  "name": "zeroconf-typescript-eslint",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel sample.js"
+  },
+  "bin": {
+    "zeroconf-typescript-eslint": "bin/init"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.1.0",
+    "@typescript-eslint/parser": "^1.1.0",
+    "eslint": "5.11.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.3"
+  }
+}

@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+const path = require('path')
+const fs = require('fs')
+
+const copy = (fromFile, toFile) => {
+  fs.writeFileSync(toFile, fs.readFileSync(fromFile))
+}
+
+console.log('Applying goddamn javascript configs.')
+const from = path.join(__dirname, '../')
+const target = process.cwd()
+
+const targetlint = path.join(target, '.eslintrc')
+if (fs.existsSync(targetlint)) {
+  console.error(`exists:\n\t${targetlint}`)
+  process.exit(1)
+}
+copy(path.join(from, '.eslintrc'), targetlint)
+console.log(`added:\n\t${targetlint}`)
+
+
+
+
