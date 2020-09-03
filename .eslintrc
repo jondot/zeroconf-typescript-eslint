@@ -3,6 +3,7 @@
   "extends": [
     "airbnb",
     "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
     "prettier",
     "prettier/react"
   ],
@@ -17,6 +18,14 @@
     }
   },
   "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.spec.[tj]s"
+        ]
+      }
+    ],
     "import/prefer-default-export": 0,
     "class-methods-use-this": 0,
     "@typescript-eslint/explicit-member-accessibility": 0,

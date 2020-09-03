@@ -1,6 +1,6 @@
 {
   "name": "zeroconf-typescript-eslint",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "license": "MIT",
   "scripts": {
     "test": "babel sample.js"
@@ -26,6 +26,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^4.1.0",
     "prettier": "^1.19.1",
     "ts-jest": "^24.3.0"
   }
