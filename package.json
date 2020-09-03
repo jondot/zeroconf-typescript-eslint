@@ -1,6 +1,6 @@
 {
   "name": "zeroconf-typescript-eslint",
-  "version": "2.1.2",
+  "version": "2.3.0",
   "license": "MIT",
   "scripts": {
     "test": "babel sample.js"
