@@ -22,7 +22,8 @@
       "error",
       {
         "devDependencies": [
-          "**/*.spec.[tj]s"
+          "**/*.spec.[tj]s",,
+          "**/*.stories.[jt]s[x]"
         ]
       }
     ],
